@@ -1,0 +1,9 @@
+
+<h1>My Expense List</h1>
+
+{% for object in objects %}
+	<li>title:<p>{{ object.title }}</p></li>
+	<li>date:<p>{{ object.date }}</p></li>
+	<li>amount:<p>{{ object.amount }}</p></li>
+	<li>discrption:<p>{{ object.discrption }}</p></li>
+{% endfor %}
